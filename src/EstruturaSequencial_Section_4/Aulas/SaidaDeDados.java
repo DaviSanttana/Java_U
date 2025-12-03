@@ -1,4 +1,4 @@
-package EstruturaSequencial_Section_4;
+package EstruturaSequencial_Section_4.Aulas;
 
 public class SaidaDeDados {
     public static void main(String[] args) {
