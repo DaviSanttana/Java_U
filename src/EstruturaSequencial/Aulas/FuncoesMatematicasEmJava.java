@@ -1,4 +1,4 @@
-package EstruturaSequencial_Section_4.Aulas;
+package EstruturaSequencial.Aulas;
 
 public class FuncoesMatematicasEmJava {
     public static void main(String[] args) {

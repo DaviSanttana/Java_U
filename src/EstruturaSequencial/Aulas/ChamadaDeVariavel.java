@@ -1,4 +1,4 @@
-package EstruturaSequencial_Section_4.Aulas;
+package EstruturaSequencial.Aulas;
 
 import java.util.Locale;
 
