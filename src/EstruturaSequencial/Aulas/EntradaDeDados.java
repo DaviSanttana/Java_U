@@ -1,12 +1,12 @@
-package EstruturaSequencial_Section_4.Aulas;
+package EstruturaSequencial.Aulas;
 
 import java.util.Scanner;
 
-public class EntradaDeDadosComChar {
+public class EntradaDeDados {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        char x = scanner.next().charAt(0);// Ira ler apenas o primeiro caractere digitado
+        String x = scanner.next();
         System.out.println("You enter: " + x);
 
         scanner.close();

@@ -1,4 +1,4 @@
-package EstruturaSequencial_Section_4.Exercise;
+package EstruturaSequencial.Exercise;
 import java.util.Locale;
 public class ExerciseSaidaDeDados01 {
     public static void main(String[] args) {

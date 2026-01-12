@@ -1,4 +1,4 @@
-package EstruturaSequencial_Section_4.Exercise;
+package EstruturaSequencial.Exercise;
 
 import java.util.ArrayList;
 import java.util.Locale;
