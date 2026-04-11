@@ -13,5 +13,6 @@ public class EntendendoWhile {
         }
         sc.close();
         System.out.println("A soma é: "+ soma);
+        }
     }
-}
+
