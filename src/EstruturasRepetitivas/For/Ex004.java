@@ -17,7 +17,6 @@ public class Ex004 {
                 double divisao = (double) a / b;
                 System.out.printf("%.1f%n",divisao);
             }
-
         }
         sc.close();
     }
