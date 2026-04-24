@@ -1,4 +1,4 @@
-package _ProgramacaoOrientadaObjetos.Aula001.entities;
+package _ProgramacaoOrientadaObjetos.Aula1.Exemplo001.entities;
 
 public class Triangle {
     public double a;

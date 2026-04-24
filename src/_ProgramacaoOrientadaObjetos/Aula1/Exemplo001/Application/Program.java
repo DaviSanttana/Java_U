@@ -1,6 +1,6 @@
-package _ProgramacaoOrientadaObjetos.Aula001.Application;
+package _ProgramacaoOrientadaObjetos.Aula1.Exemplo001.Application;
 
-import _ProgramacaoOrientadaObjetos.Aula001.entities.Triangle;
+import _ProgramacaoOrientadaObjetos.Aula1.Exemplo001.entities.Triangle;
 
 import java.util.Locale;
 import java.util.Scanner;
