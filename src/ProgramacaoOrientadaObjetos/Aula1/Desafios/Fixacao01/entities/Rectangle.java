@@ -1,4 +1,4 @@
-package ProgramacaoOrientadaObjetos.Desafios.Fixacao01.entities;
+package ProgramacaoOrientadaObjetos.Aula1.Desafios.Fixacao01.entities;
 
 public class Rectangle {
     public double width;

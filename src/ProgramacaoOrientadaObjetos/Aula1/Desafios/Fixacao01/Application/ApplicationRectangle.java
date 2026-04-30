@@ -1,8 +1,6 @@
-package ProgramacaoOrientadaObjetos.Desafios.Fixacao01.Application;
+package ProgramacaoOrientadaObjetos.Aula1.Desafios.Fixacao01.Application;
 
-import ProgramacaoOrientadaObjetos.Aula1.Exemplo001.entities.Triangle;
-import ProgramacaoOrientadaObjetos.Aula1.Exemplo002.entities.Product;
-import ProgramacaoOrientadaObjetos.Desafios.Fixacao01.entities.Rectangle;
+import ProgramacaoOrientadaObjetos.Aula1.Desafios.Fixacao01.entities.Rectangle;
 
 import java.util.Locale;
 import java.util.Scanner;
