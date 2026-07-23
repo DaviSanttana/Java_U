@@ -9,21 +9,21 @@ public class Main {
 
     public static void printEmployee(Employee employee) {
         switch (employee) {
-            case Maneger manager -> {
-                manager.setCode("123");
-                manager.setName("João");
-                manager.setSalary(5000);
-                manager.setLogin("joao23");
-                manager.setPassword("23234");
-                manager.setComission(1200);
+            case Maneger maneger -> {
+                maneger.setCode("123");
+                maneger.setName("João");
+                maneger.setSalary(5000);
+                maneger.setLogin("joao23");
+                maneger.setPassword("23234");
+                maneger.setComission(1200);
 
-                System.out.println(manager.getCode());
-                System.out.println(manager.getName());
-                System.out.println(manager.getSalary());
-                System.out.println(manager.getLogin());
-                System.out.println(manager.getPassword());
-                System.out.println(manager.getComission());
-                System.out.println(manager.getFullSalary(500));
+                System.out.println(maneger.getCode());
+                System.out.println(maneger.getName());
+                System.out.println(maneger.getSalary());
+                System.out.println(maneger.getLogin());
+                System.out.println(maneger.getPassword());
+                System.out.println(maneger.getComission());
+                System.out.println(maneger.getFullSalary(500));
             }
             case Salesman salesman -> {
                 salesman.setCode("234");

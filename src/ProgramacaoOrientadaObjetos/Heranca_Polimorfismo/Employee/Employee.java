@@ -5,7 +5,7 @@ public sealed abstract class Employee permits Salesman, Maneger {
     protected String name;
     protected String adress;
     protected int age;
-    protected   double salary;
+    protected double salary;
 
     public Employee(String code,
                     String name,
