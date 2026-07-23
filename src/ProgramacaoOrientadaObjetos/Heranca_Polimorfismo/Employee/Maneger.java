@@ -1,9 +1,9 @@
 package ProgramacaoOrientadaObjetos.Heranca_Polimorfismo.Employee;
 
-public non-sealed class Maneger extends Employee{
+public non-sealed class Maneger extends Employee {
     private String login;
     private String password;
-    private  double comission;
+    private double comission;
 
     public Maneger(String code,
                    String name,
@@ -20,7 +20,7 @@ public non-sealed class Maneger extends Employee{
     }
 
     @Override
-    public String getCode(){
+    public String getCode() {
         return "MN" + this.code;
     }
 

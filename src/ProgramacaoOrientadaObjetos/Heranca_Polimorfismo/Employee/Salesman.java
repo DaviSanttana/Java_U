@@ -1,8 +1,8 @@
 package ProgramacaoOrientadaObjetos.Heranca_Polimorfismo.Employee;
 
-public non-sealed class Salesman extends Employee{
-    private  double percentPerSold;
-    private  double soldAMount;
+public non-sealed class Salesman extends Employee {
+    private double percentPerSold;
+    private double soldAMount;
 
     public Salesman(String code,
                     String name,
@@ -17,13 +17,13 @@ public non-sealed class Salesman extends Employee{
     }
 
     @Override
-    public String getCode(){
+    public String getCode() {
         return "SL" + this.code;
     }
 
     @Override
     public double getFullSalary() {
-        return this.salary + ((soldAMount * percentPerSold)/100);
+        return this.salary + ((soldAMount * percentPerSold) / 100);
     }
 
     public Salesman() {
