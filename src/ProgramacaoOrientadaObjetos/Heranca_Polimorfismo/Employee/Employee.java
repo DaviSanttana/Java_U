@@ -1,11 +1,26 @@
 package ProgramacaoOrientadaObjetos.Heranca_Polimorfismo.Employee;
 
 public sealed abstract class Employee permits Salesman, Maneger {
-    private String code;
-    private String name;
-    private String adress;
-    private int age;
-    private  double salary;
+    protected String code;
+    protected String name;
+    protected String adress;
+    protected int age;
+    protected   double salary;
+
+    public Employee(String code,
+                    String name,
+                    String adress,
+                    int age,
+                    double salary) {
+        this.code = code;
+        this.name = name;
+        this.adress = adress;
+        this.age = age;
+        this.salary = salary;
+    }
+
+    public Employee() {
+    }
 
     public String getCode() {
         return code;
@@ -46,4 +61,11 @@ public sealed abstract class Employee permits Salesman, Maneger {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    public abstract double getFullSalary();
+
+    public double getFullSalary(double extra) {
+        return getFullSalary() + extra;
+    }
+
 }
