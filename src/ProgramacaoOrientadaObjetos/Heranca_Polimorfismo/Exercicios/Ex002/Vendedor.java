@@ -12,47 +12,20 @@ public non-sealed class Vendedor extends Usuarios {
     public Vendedor() {
     }
 
-    public int realizarVenda(int novasVendas) {
-        double valorVenda = 100;
-        int totalVendas = 0;
-        if (novasVendas <= 0) {
-            System.out.println("Favor informar numero valido de vendas.");
-        }
-        totalVendas += (novasVendas * valorVenda);
-        return totalVendas;
-    }
-    public void gerarRelatorioFinanceiro() {
-        System.out.println("Gerando relatorios");
-    }
-
-    public void consultarVendas() {
-        System.out.println("Consultando vendas");
-
-    }
-
-    public boolean realizarLogin(String email, String senha) {
-        if (getEmail().equalsIgnoreCase(email) && getSenha().equals(senha)) {
-            System.out.println("Login realizado com sucesso! Bem-vindo, " + getNome() + ".");
-            return true;
-        }
-        System.out.println("Erro: E-mail ou senha incorretos.");
+    @Override
+    public boolean isAdministrador() {
         return false;
     }
 
-    public void realizarLogoff() {
-        System.out.println("Sessão encerrada para o gerente " + getNome() + ".");
+    public void realizarVenda() {
+        this.quantidadeVendas++;
+        System.out.println("Venda realizada! Total de vendas agora: " + this.quantidadeVendas);
     }
 
-    public void alterarDados(String novoNome, String novoEmail) {
-        if (novoNome != null && !novoNome.trim().isEmpty()) {
-            setNome(novoNome);
-        }
-        if (novoEmail != null && !novoEmail.trim().isEmpty()) {
-            setEmail(novoEmail);
-        }
-        System.out.println("Dados cadastrais atualizados com sucesso.");
+    public String consultarVendas() {
+        return "Consultando vendas. Total realizadas: " + this.quantidadeVendas;
     }
-    public  void alterarSenha(String novaSenha){
+    public void alterarSenha(String novaSenha) {
         if (novaSenha != null && !getSenha().trim().isEmpty()) {
             setSenha(novaSenha);
         }
@@ -66,7 +39,5 @@ public non-sealed class Vendedor extends Usuarios {
     public void setQuantidadeVendas(int quantidadeVendas) {
         this.quantidadeVendas = quantidadeVendas;
     }
-    public boolean isAdministrador() {
-        return this.ADMINISTRADOR;
-    }
+
 }
