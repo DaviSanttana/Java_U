@@ -3,7 +3,7 @@ package Vetores;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exexmplo01 {
+public class Exemplo1 {
     static void main() {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
