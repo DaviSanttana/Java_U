@@ -14,17 +14,17 @@ public class Exemplo2 {
 
         Product[] vect = new Product[n];
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < vect.length; i++) {
             scanner.nextLine();
             String name = scanner.nextLine();
             double price = scanner.nextDouble();
             vect[i] = new Product(name, price);
         }
         double sum = 0;
-        for (int i = 0; i < n ; i++) {
+        for (int i = 0; i < vect.length ; i++) {
             sum += vect[i].getPrice();
         }
-        double avg = sum/n;
+        double avg = sum/ vect.length;
         System.out.println("A media é: "+ avg);
         scanner.close();
 
