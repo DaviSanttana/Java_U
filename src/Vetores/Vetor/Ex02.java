@@ -1,9 +1,9 @@
-package Vetor;
+package Vetores.Vetor;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Ex003 {
+public class Ex02 {
     static void main() {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
@@ -16,23 +16,21 @@ public class Ex003 {
             vec[i] = scanner.nextDouble();
         }
 
-        double sumPares = 0;
-        int pares = 0;
-         double mediapares;
+        double sum = 0;
         for (int i = 0; i < n; i++) {
-            if (vec[i] % 2 == 0) {
-                sumPares += vec[i];
-                pares++;
-            }
-        }
-        if (pares == 0) {
-            System.out.println("NENHUM NUMERO PAR");
-        }
-        else {
-            mediapares = sumPares / pares;
+            sum += vec[i];
 
-            System.out.printf("MEDIA DOS PARES = %.1f\n", mediapares);
         }
+        double avg = sum / n;
+
+        System.out.print("VALORES = ");
+        for (int i = 0; i < n; i++) {
+            System.out.printf("%.1f  ", vec[i] );
+        }
+
+        System.out.println("\nA media é: " + avg);
+        System.out.println("A soma é: " + sum);
+        scanner.close();
     }
-
 }
+

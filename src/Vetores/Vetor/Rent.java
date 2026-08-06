@@ -1,4 +1,4 @@
-package Vetor;
+package Vetores.Vetor;
 
 public class Rent {
     private String name;
