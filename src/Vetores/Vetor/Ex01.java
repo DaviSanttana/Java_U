@@ -1,4 +1,4 @@
-package Vetor;
+package Vetores.Vetor;
 
 
 import java.util.Locale;
