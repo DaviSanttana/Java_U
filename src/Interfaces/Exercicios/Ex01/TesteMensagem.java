@@ -15,7 +15,6 @@ public class TesteMensagem {
         Mensagem whatsApp = mensagem -> System.out.println("Enviando whatsApp: " + mensagem);
         Mensagem redesSociais = mensagem -> System.out.println("Enviando mensagem pela rede: " + mensagem);
 
-
         List<Mensagem> mensagems = List.of(sms,email,redesSociais,whatsApp);
         enviarParaTodos("Promoção hoje", mensagems);
     }
