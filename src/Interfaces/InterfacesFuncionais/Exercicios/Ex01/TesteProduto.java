@@ -1,9 +1,7 @@
 package Interfaces.InterfacesFuncionais.Exercicios.Ex01;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-import java.util.Scanner;
 
 public class TesteProduto {
     static void main() {
@@ -15,8 +13,9 @@ public class TesteProduto {
 
         double total = 0;
         for (Produto produto: produtos){
-            total += produto.calcularImposto();
-            System.out.println(produto.calcularImposto());
+            double imposto = produto.calcularImposto();
+            System.out.println(imposto);
+            total += imposto;
         }
         System.out.println(total);
     }
