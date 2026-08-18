@@ -10,6 +10,7 @@ public class Ex01 {
         Scanner sc = new Scanner(System.in);
         System.out.print("How many employees will be registered? ");
         int n = sc.nextInt();
+
         Employees[] vec = new Employees[n];
 
         for (int i = 0; i < n; i++) {
@@ -45,6 +46,9 @@ public class Ex01 {
                 System.out.println(vec[i].toString());
             }
         }
+
+
+
 
 
     }
