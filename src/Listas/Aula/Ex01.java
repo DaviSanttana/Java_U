@@ -47,9 +47,5 @@ public class Ex01 {
             }
         }
 
-
-
-
-
     }
 }
