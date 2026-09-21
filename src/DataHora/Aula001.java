@@ -38,7 +38,4 @@ public class Aula001 {
         System.out.println("D09 = "+d09);
 
     }
-
-
-
 }
