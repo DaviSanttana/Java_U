@@ -16,6 +16,7 @@ public class Ex001 {
                 mat[i][j] = scanner.nextInt();
             }
         }
+
         System.out.println("Main diagonal: ");
         for (int i = 0; i < n; i++) {
             System.out.print(mat[i][i] + " ");
