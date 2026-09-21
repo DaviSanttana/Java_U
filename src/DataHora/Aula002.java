@@ -1,5 +1,6 @@
 package DataHora;
 
+import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -18,7 +19,7 @@ public class Aula002 {
         System.out.println("NextWeekLocalDate = "+nextWeekLocalDate);
         System.out.println("NextYearsLocalDate = "+nextYearsLocalDate);
 
-
-
+        Duration t1 = Duration.between(pastWeekLocalDate.atStartOfDay(),d05);
+        System.out.println("t1 dias = "+t1.toDays());
     }
 }
